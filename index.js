@@ -5,3 +5,12 @@ import Base64 from 'crypto-js/enc-base64';
 
 var AES = require("crypto-js/aes");
 var SHA256 = require("crypto-js/sha256");
+
+function EncryptData(){
+    EncryptData
+    document.Encryption.data.value = CryptoJS.AES( document.Encryption.data.value);
+}
+
+// function DecryptData(){
+
+// }
