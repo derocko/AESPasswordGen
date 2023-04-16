@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-        <form name="Encryption" style="width: 500px;" onsubmit="EncryptData();">
-            <input type="text" name="data" placeholder="Enter data to encrypt">
-            <button type="submit">Submit</button>
-        </form>
-
-
-
-
-    	<script src="index.js"></script>
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AES Password Encryptor/Decryptor</title>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+        <h1>AES Password Encryptor And Decryptor</h1>
+        <p><bold><strong>Use The Buttons Below To Encrypt And Decrypt Your Password</strong></bold></p>
+      <div class="flex-parent jc-center">
+        <button type="submit" class="green margin-right">Encrypt</button>
+        <button type="submit" class="magenta">Decrypt</button>
+      </div>
+      <br>
+      <input type="number" id="num" name="num"><br><br>
+      <p style="background-color: white; width: max-content; margin:auto;"><bold><strong>This Is Where We Will Display The Encrypted And Decrypted Data</strong></bold></p>
+      </body>
 </html>
