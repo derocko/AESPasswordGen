@@ -1,0 +1,61 @@
+body{
+    background-image: url('images/code.png');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: wheat;
+    text-shadow: -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000; ;
+}
+
+p{
+    text-align: center;
+    color: wheat;
+    font-size: large;
+    text-shadow: -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000; 
+}
+
+button{
+    text-align: center;
+    align-self: center;
+}
+
+.flex-parent {
+    display: flex;
+  }
+  
+.jc-center {
+    justify-content: center;
+  }
+  
+button.margin-right {
+    margin-right: 20px;
+  }
+
+input[type="number"] {
+    display: block;
+    margin : 0 auto;
+}
+
+.box_textshadow {
+    text-shadow: 2px 2px 0px #FF0000;
+}
+
